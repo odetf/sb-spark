@@ -1,0 +1,11 @@
+[debug] > Exec({file:/C:/Users/Olga/.ssh/sb-spark/sb-spark/lab4a/}root/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Olga\.ssh\sb-spark\sb-spark\lab4a\target\scala-2.11\classes ...
+[info] Non-compiled module 'compiler-bridge_2.11' for Scala 2.11.12. Compiling...
+[info]   Compilation completed in 20.444s.
+[info] done compiling
+[success] Total time: 37 s, completed 28.10.2023 14:32:28
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
