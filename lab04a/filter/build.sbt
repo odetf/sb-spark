@@ -4,7 +4,7 @@ ThisBuild / scalaVersion := "2.11.12"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "lab4a"
+    name := "filter"
   )
 
 libraryDependencies += "org.apache.spark" % "spark-core_2.11" % "2.4.7"

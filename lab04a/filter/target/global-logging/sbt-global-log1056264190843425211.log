@@ -1,0 +1,7 @@
+[debug] > Exec({file:/C:/Users/Olga/.ssh/sb-spark/sb-spark/lab04a/filter/}root/clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 28.10.2023 15:00:48
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
