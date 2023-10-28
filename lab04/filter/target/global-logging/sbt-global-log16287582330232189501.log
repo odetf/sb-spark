@@ -1,9 +1,0 @@
-[debug] > Exec({file:/C:/Users/Olga/.ssh/sb-spark/sb-spark/lab04/}root/package, None, None)
-[debug] Evaluating tasks: Compile / package
-[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[info] compiling 1 Scala source to C:\Users\Olga\.ssh\sb-spark\sb-spark\lab04\target\scala-2.11\classes ...
-[info] done compiling
-[success] Total time: 7 s, completed 28 окт. 2023 г., 13:33:09
-[debug] > Exec(idea-shell, None, None)
-[debug] > Exec(, None, None)
-[debug] > Exec(idea-shell, None, None)
