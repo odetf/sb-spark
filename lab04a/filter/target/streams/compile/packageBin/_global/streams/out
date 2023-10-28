@@ -1,5 +1,1 @@
-[debug] Packaging C:\Users\Olga\.ssh\sb-spark\sb-spark\lab04a\filter\target\scala-2.11\filter_2.11-1.0.jar ...
-[debug] Input file mappings:
-[debug] 	filter.class
-[debug] 	  C:\Users\Olga\.ssh\sb-spark\sb-spark\lab04a\filter\target\scala-2.11\classes\filter.class
-[debug] Done packaging.
+[debug] Jar uptodate: C:\Users\Olga\.ssh\sb-spark\sb-spark\lab04a\filter\target\scala-2.11\filter_2.11-1.0.jar

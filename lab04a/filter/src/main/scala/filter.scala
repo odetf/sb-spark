@@ -1,4 +1,4 @@
-class filter {
+object filter {
 
 
   def main(args: Array[String]): Unit = {
