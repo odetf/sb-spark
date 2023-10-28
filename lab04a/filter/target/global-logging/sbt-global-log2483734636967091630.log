@@ -3,7 +3,7 @@
 [debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
 [info] compiling 1 Scala source to C:\Users\Olga\.ssh\sb-spark\sb-spark\lab04a\filter\target\scala-2.11\classes ...
 [info] done compiling
-[success] Total time: 9 s, completed 28.10.2023 15:03:03
+[success] Total time: 7 s, completed 28.10.2023 15:55:46
 [debug] > Exec(idea-shell, None, None)
 [debug] > Exec(, None, None)
 [debug] > Exec(idea-shell, None, None)
