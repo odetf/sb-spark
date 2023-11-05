@@ -1,6 +1,7 @@
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql._
 import org.apache.spark.sql.functions._
+import sys.process._
 
 import org.apache.hadoop.fs.{FileSystem, Path}
 
@@ -23,6 +24,20 @@ object users_items {
         max2
       } else {
         max1
+      }
+    }
+
+    def returnLastVersion(dir: String) = {
+      if (s"${dir}" contains "file:/") {
+        (s"ls ${dir} -X -r".!!).split("\\n").map(_.trim).toList(0)
+      }
+      else {
+        val hadoopConfiguration = spark.sparkContext.hadoopConfiguration
+        val thisFs = FileSystem.get(hadoopConfiguration)
+        thisFs.listStatus(new Path(dir))
+          .map(x => x.getPath.toString)
+          .sorted(Ordering.String.reverse)
+          .head takeRight 8
       }
     }
 
@@ -59,12 +74,7 @@ object users_items {
     }
     else if (update == 1) {
 
-      val hadoopConfiguration = spark.sparkContext.hadoopConfiguration
-      val thisFs = FileSystem.get(hadoopConfiguration)
-      val last_version = thisFs.listStatus(new Path(output_dir))
-        .map(x => x.getPath.toString)
-        .sorted(Ordering.String.reverse)
-        .head takeRight 8
+      val last_version = returnLastVersion(output_dir)
       val previousMatrix = spark.read.parquet(s"${output_dir}/${last_version}")
 
       val newDataView = spark.read.json(s"${input_dir}/view/").filter('p_date > last_version)
