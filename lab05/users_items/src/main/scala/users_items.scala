@@ -29,7 +29,8 @@ object users_items {
 
     def returnLastVersion(dir: String) = {
       if (s"${dir}" contains "file:/") {
-        (s"ls ${dir} -X -r".!!).split("\\n").map(_.trim).toList(0)
+        val correct_dir = dir.replace("file:///", "")
+        (s"ls ${correct_dir} -X -r".!!).split("\\n").map(_.trim).toList(0)
       }
       else {
         val hadoopConfiguration = spark.sparkContext.hadoopConfiguration
