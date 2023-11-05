@@ -29,7 +29,7 @@ object users_items {
 
     def returnLastVersion(dir: String) = {
       if (s"${dir}" contains "file:/") {
-        val correct_dir = dir.replace("file://", "")
+        val correct_dir = dir.replace("file:", "")
         (s"ls ${correct_dir} -X -r".!!).split("\\n").map(_.trim).toList(0)
       }
       else {
