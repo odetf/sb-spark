@@ -1,0 +1,4 @@
+[debug] > Exec({file:/C:/Users/Olga/.ssh/sb-spark/sb-spark/lab05/users_items/}root/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Olga\.ssh\sb-spark\sb-spark\lab05\users_items\target\scala-2.11\classes ...

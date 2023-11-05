@@ -1,0 +1,25 @@
+[debug] > Exec({file:/C:/Users/Olga/.ssh/sb-spark/sb-spark/lab05/users_items/}root/package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Olga\.ssh\sb-spark\sb-spark\lab05\users_items\target\scala-2.11\classes ...
+[error] C:\Users\Olga\.ssh\sb-spark\sb-spark\lab05\users_items\src\main\scala\users_items.scala:18:29: overloaded method value max with alternatives:
+[error]   (columnName: String)org.apache.spark.sql.Column <and>
+[error]   (e: org.apache.spark.sql.Column)org.apache.spark.sql.Column
+[error]  cannot be applied to (Symbol)
+[error]       val max1 = df1.select(max('p_date)).collectAsList().get(0).mkString
+[error]                             ^
+[error] C:\Users\Olga\.ssh\sb-spark\sb-spark\lab05\users_items\src\main\scala\users_items.scala:19:29: overloaded method value max with alternatives:
+[error]   (columnName: String)org.apache.spark.sql.Column <and>
+[error]   (e: org.apache.spark.sql.Column)org.apache.spark.sql.Column
+[error]  cannot be applied to (Symbol)
+[error]       val max2 = df2.select(max('p_date)).collectAsList().get(0).mkString
+[error]                             ^
+[error] C:\Users\Olga\.ssh\sb-spark\sb-spark\lab05\users_items\src\main\scala\users_items.scala:63:35: not found: value sc
+[error]         val hadoopConfiguration = sc.hadoopConfiguration
+[error]                                   ^
+[error] three errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 19 s, completed 05.11.2023 16:17:25
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
