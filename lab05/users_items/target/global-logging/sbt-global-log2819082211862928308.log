@@ -1,7 +1,8 @@
 [debug] > Exec({file:/C:/Users/Olga/.ssh/sb-spark/sb-spark/lab05/users_items/}root/clean, None, None)
 [debug] Evaluating tasks: clean
 [debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
-[success] Total time: 0 s, completed 05.11.2023 18:42:10
+[debug] Forcing garbage collection...
+[success] Total time: 0 s, completed 05.11.2023 19:00:55
 [debug] > Exec(idea-shell, None, None)
 [debug] > Exec(, None, None)
 [debug] > Exec(idea-shell, None, None)

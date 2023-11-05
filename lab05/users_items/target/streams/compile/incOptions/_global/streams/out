@@ -1,9 +1,16 @@
 [debug] Created transactional ClassFileManager with tempDir = C:\Users\Olga\.ssh\sb-spark\sb-spark\lab05\users_items\target\scala-2.11\classes.bak
 [debug] About to delete class files:
+[debug] 	users_items$$anonfun$1.class
+[debug] 	users_items.class
+[debug] 	users_items$.class
+[debug] 	users_items$$anonfun$returnLastVersion$1$2.class
+[debug] 	users_items$$anonfun$returnLastVersion$1$1.class
 [debug] We backup class files:
-[debug] Created transactional ClassFileManager with tempDir = C:\Users\Olga\.ssh\sb-spark\sb-spark\lab05\users_items\target\scala-2.11\classes.bak
-[debug] About to delete class files:
-[debug] We backup class files:
+[debug] 	users_items$$anonfun$1.class
+[debug] 	users_items.class
+[debug] 	users_items$.class
+[debug] 	users_items$$anonfun$returnLastVersion$1$2.class
+[debug] 	users_items$$anonfun$returnLastVersion$1$1.class
 [debug] Registering generated classes:
 [debug] 	users_items$$anonfun$1.class
 [debug] 	users_items.class
