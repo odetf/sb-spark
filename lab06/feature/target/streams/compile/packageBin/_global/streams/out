@@ -1,0 +1,13 @@
+[debug] Packaging C:\Users\Olga\.ssh\sb-spark\sb-spark\lab06\feature\target\scala-2.11\feature_2.11-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	features$$anonfun$1.class
+[debug] 	  C:\Users\Olga\.ssh\sb-spark\sb-spark\lab06\feature\target\scala-2.11\classes\features$$anonfun$1.class
+[debug] 	features$$typecreator1$1.class
+[debug] 	  C:\Users\Olga\.ssh\sb-spark\sb-spark\lab06\feature\target\scala-2.11\classes\features$$typecreator1$1.class
+[debug] 	features$$typecreator2$1.class
+[debug] 	  C:\Users\Olga\.ssh\sb-spark\sb-spark\lab06\feature\target\scala-2.11\classes\features$$typecreator2$1.class
+[debug] 	features$.class
+[debug] 	  C:\Users\Olga\.ssh\sb-spark\sb-spark\lab06\feature\target\scala-2.11\classes\features$.class
+[debug] 	features.class
+[debug] 	  C:\Users\Olga\.ssh\sb-spark\sb-spark\lab06\feature\target\scala-2.11\classes\features.class
+[debug] Done packaging.
