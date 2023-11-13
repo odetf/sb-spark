@@ -14,7 +14,7 @@ object features {
 
     val toArrayUDF = udf((v: org.apache.spark.ml.linalg.Vector) => v.toDense.toArray)
 
-    val weblogs = spark.read.json("hdfs:///labs/laba03/weblogs.json")
+    val weblogs = spark.read.parquet("/user/olga.tarasenko/users-items/20200429")
 
     val usersItemsMatrix = spark.read.parquet("/user/olga.tarasenko/users-items/20200429")
 
