@@ -1,4 +1,6 @@
-Данный репозиторий содержит решения домашек по курсу от Newprolab ["Apache Spark и Scala для дата-инжиниринга"](https://newprolab.com/ru/spark-de)
+﻿Данный репозиторий содержит решения домашек по курсу от Newprolab ["Apache Spark и Scala для дата-инжиниринга"](https://newprolab.com/ru/spark-de)
+
+[Сертификат о прохождении курса](https://drive.google.com/file/d/1TmRUkf2ZSHwOtdTfJvJS5k4xcdzuBmDG/view?usp=sharing)
 
 На данный момент в репозитории 7 решенных домашних заданий:
 
